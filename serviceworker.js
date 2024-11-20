@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pwa-cache-v1';
+const CACHE_NAME = `pwa-cache-vWed Nov 20 2024 18:41:32 GMT+0530 (India Standard Time)`;
       const ASSETS_TO_CACHE = [
   "/index.html",
   "/assets/css/main.css",

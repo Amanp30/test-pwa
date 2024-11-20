@@ -1,7 +1,7 @@
 {
   "name": "Example Website",
   "short_name": "Example",
-  "description": "",
+  "description": "test description",
   "start_url": "/index.html",
   "display": "standalone",
   "display_override": [
@@ -24,7 +24,21 @@
       "type": "image/png"
     }
   ],
-  "orientation": "landscape",
+  "screenshots": [
+    {
+      "src": "/assets/site/screen-1-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "platform": "all"
+    },
+    {
+      "src": "/assets/site/screen-2-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "platform": "all"
+    }
+  ],
+  "orientation": "portrait",
   "lang": "en-us",
   "scope": "/"
 }
